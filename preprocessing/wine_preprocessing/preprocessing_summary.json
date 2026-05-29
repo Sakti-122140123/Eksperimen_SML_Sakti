@@ -1,0 +1,59 @@
+{
+  "dataset": "UCI Wine Dataset",
+  "source": "https://archive.ics.uci.edu/dataset/109/wine",
+  "rows": 178,
+  "columns": 14,
+  "target_column": "wine_class",
+  "target_distribution": {
+    "0": 59,
+    "1": 71,
+    "2": 48
+  },
+  "numeric_columns": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280_od315_of_diluted_wines",
+    "proline"
+  ],
+  "missing_before": {
+    "alcohol": 0,
+    "malic_acid": 0,
+    "ash": 0,
+    "alcalinity_of_ash": 0,
+    "magnesium": 0,
+    "total_phenols": 0,
+    "flavanoids": 0,
+    "nonflavanoid_phenols": 0,
+    "proanthocyanins": 0,
+    "color_intensity": 0,
+    "hue": 0,
+    "od280_od315_of_diluted_wines": 0,
+    "proline": 0,
+    "wine_class": 0
+  },
+  "missing_after": {
+    "alcohol": 0,
+    "malic_acid": 0,
+    "ash": 0,
+    "alcalinity_of_ash": 0,
+    "magnesium": 0,
+    "total_phenols": 0,
+    "flavanoids": 0,
+    "nonflavanoid_phenols": 0,
+    "proanthocyanins": 0,
+    "color_intensity": 0,
+    "hue": 0,
+    "od280_od315_of_diluted_wines": 0,
+    "proline": 0,
+    "wine_class": 0
+  }
+}
