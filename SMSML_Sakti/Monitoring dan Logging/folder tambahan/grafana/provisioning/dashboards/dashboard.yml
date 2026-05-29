@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: MSML dashboards
+    orgId: 1
+    folder: MSML
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards

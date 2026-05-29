@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "best_cv_f1": 0.9793170510243364
+  },
+  "notes": {
+    "dataset": "UCI Wine Dataset",
+    "source": "https://archive.ics.uci.edu/dataset/109/wine",
+    "target": "wine_class",
+    "accuracy": "overall correct predictions divided by total predictions",
+    "precision": "weighted positive predictive value across wine classes",
+    "recall": "weighted sensitivity across wine classes",
+    "f1_score": "weighted harmonic mean of precision and recall",
+    "roc_auc": "weighted multiclass one-vs-rest ROC AUC"
+  }
+}
