@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "wine_raw/**"
-      - "preprocessing/automate_Sakti.py"
-      - ".github/workflows/preprocessing.yml"
   workflow_dispatch:
 
 permissions:
